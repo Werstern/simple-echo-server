@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/assets/styles.css">
+    </head>
+    <body>
+        <% include partials/nav.ejs %>
+        <h1>Contact Us!</h1>
+        <p>Contact the closest cats on the web rigth here...</p>
+
+        <form id="contact-form" method="POST" action="/contact">
+            <label for="who">Who do you want to contact?</label>
+            <input type="text" name="who">
+            <label for="department">Which department?</label>
+            <input type="text" name="department">
+            <label for="email">Your email</label>
+            <input type="email" name="email">
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
