@@ -1,12 +1,12 @@
 {
-  "name": "first",
+  "name": "first-simple-echo-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple echo node server using ejs template",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Amster",
+  "author": "Werstern",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
